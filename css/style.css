@@ -1,0 +1,42 @@
+* {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+}
+
+.header {
+      padding: 40px 0 0 0;
+      margin: 0 0 84px 0;
+}
+
+.header-logo-link {
+      margin: 0 14px 0 0;
+}
+
+.header-logo-text {
+      margin: 5px 0 0 0;
+}
+
+.header-menu {
+      padding: 11px 0 12px 0;
+}
+
+.top-content-wrp {
+      margin: 0 0 200px 0;
+}
+
+.top-content-info {
+      padding: 59px 0 0 0;
+}
+
+.top-content-tittle {
+      margin: 0 0 17px 0;
+}
+
+.top-content-text {
+      margin: 0 0 37px 0;
+}
+
+.top-logos{
+      margin: 0 0 96px 0;
+}
