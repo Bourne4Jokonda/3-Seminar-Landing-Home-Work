@@ -4,39 +4,136 @@
       text-decoration: none;
 }
 
+a {
+      text-decoration: none;
+}
+
+body {
+      font: 'Gilroy', sans-serif;
+      font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.center {
+      width: 100%;
+      max-width: 1170px;
+      margin: 0 auto;
+}
+
 .header {
-      padding: 40px 0 0 0;
-      margin: 0 0 84px 0;
+      margin-top: 40px;
+      margin-bottom: 84px;
+      display: flex;
+      justify-content: space-between;
 }
 
 .header-logo-link {
       margin: 0 14px 0 0;
+      display: flex;
+      align-items: flex-start;
+      text-decoration: none;
 }
 
 .header-logo-text {
       margin: 5px 0 0 0;
+      font-size: 24px;
+      line-height: 28px;
+      font-family: 'Gilroy';
+      font-weight: bold;
+      font-style: normal;
+      color: #000000;
 }
 
 .header-menu {
       padding: 11px 0 12px 0;
+      display: flex;
+      align-items: center;
+      list-style: none;
+      gap: 35px;
+}
+
+.header-menu-item {
+      font-family: 'Gilroy';
+      font-weight: 600;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 16px;
+      color: #000000;
+}
+
+.another-color {
+      color: #F25822;
 }
 
 .top-content-wrp {
-      margin: 0 0 200px 0;
+      display: flex;
+      margin-bottom: 162px;
 }
 
 .top-content-info {
-      padding: 59px 0 0 0;
+      padding: 0 39px 0 0;
 }
 
 .top-content-tittle {
       margin: 0 0 17px 0;
+      font-family: 'Gilroy-Bold';
+      font-size: 60px;
+      line-height: 70px;
+      color: #000000;
+      width: 100%;
+      max-width: 522px;
 }
 
 .top-content-text {
       margin: 0 0 37px 0;
+      font-family: 'Gilroy';
+      font-weight: 500;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 23px;
+      color: #888888;
+      max-width: 466px;
+      width: 100%;
 }
 
-.top-logos{
-      margin: 0 0 96px 0;
+.btn-top-content {
+      background: #F25822;
+      box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+      border-radius: 50px;
+      border: none;
+      padding: 15px 36px;
+}
+
+.btn-top-content>a {
+      font-family: 'Gilroy';
+      font-weight: bold;
+      font-style: normal;
+      font-size: 15px;
+      line-height: 18px;
+      color: #FFFFFF;
+}
+
+.btn-top-link {
+      font-family: 'Gilroy';
+      font-weight: bold;
+      font-style: normal;
+      font-size: 15px;
+      line-height: 18px;
+      color: #AAAAAA;
+      padding-left: 72px;
+}
+
+.top-logos {
+      /* margin: 0 0 96px 0; */
+}
+
+.logos-list {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      padding: 96px 0 97px 0;
+}
+
+.logos-list-item {
+      width: 160px;
+      height: 50px;
 }
