@@ -1,7 +1,6 @@
 * {
       margin: 0;
       padding: 0;
-      text-decoration: none;
 }
 
 a {
@@ -9,8 +8,10 @@ a {
 }
 
 body {
-      font: 'Gilroy', sans-serif;
-      font-family: 'Gilroy-Bold', sans-serif;
+      font-family: 'Gilroy-Bold', 'Gilroy-Regular', sans-serif;
+      font-weight: normal;
+      font-style: normal;
+      color: #000;
 }
 
 .center {
@@ -40,7 +41,6 @@ body {
       font-family: 'Gilroy';
       font-weight: bold;
       font-style: normal;
-      color: #000000;
 }
 
 .header-menu {
@@ -57,7 +57,6 @@ body {
       font-style: normal;
       font-size: 14px;
       line-height: 16px;
-      color: #000000;
 }
 
 .another-color {
@@ -78,7 +77,6 @@ body {
       font-family: 'Gilroy-Bold';
       font-size: 60px;
       line-height: 70px;
-      color: #000000;
       width: 100%;
       max-width: 522px;
 }
@@ -101,9 +99,6 @@ body {
       border-radius: 50px;
       border: none;
       padding: 15px 36px;
-}
-
-.btn-top-content>a {
       font-family: 'Gilroy';
       font-weight: bold;
       font-style: normal;
@@ -136,4 +131,66 @@ body {
 .logos-list-item {
       width: 160px;
       height: 50px;
+}
+
+.features {}
+
+.features-list {
+      display: flex;
+      justify-content: space-between;
+      padding: 100px 0;
+      max-width: 1110px;
+      margin: 0 auto 0 auto;
+      list-style: none;
+}
+
+.features-list-item {
+      max-width: 310px;
+      width: 100%;
+      margin-top: 40px;
+}
+
+.ftr-list-item-big {
+      padding: 40px 30px 25px 30px;
+      box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+      margin-top: 0;
+}
+
+.features-list .features-list-item:nth-child(1) .ftr-list-item-photo {
+      background-image: url('../img/ftr-icon1.svg');
+}
+
+.features-list .features-list-item:nth-child(2) .ftr-list-item-photo {
+      background-image: url('../img/ftr-icon2.svg');
+}
+
+.features-list .features-list-item:nth-child(3) .ftr-list-item-photo {
+      background-image: url('../img/ftr-icon3.svg');
+}
+
+.ftr-list-item-photo {
+      margin: 0 0 25px 0;
+      height: 70px;
+      width: 70px;
+}
+
+.ftr-list-item-tittle {
+      margin: 0 0 17px 0;
+      font-size: 24px;
+      line-height: 28px;
+      color: #000000;
+}
+
+.ftr-list-item-txt {
+      margin: 0 0 25px 0;
+      font-size: 15px;
+      line-height: 22px;
+      font-family: 'Gilroy';
+}
+
+.ftr-list-item-link {
+      font-size: 11px;
+      line-height: 150%;
+      font-weight: bold;
+      font-family: 'Gilroy';
 }
