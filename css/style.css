@@ -1,6 +1,7 @@
 * {
       margin: 0;
       padding: 0;
+      list-style: none;
 }
 
 a {
@@ -150,6 +151,11 @@ body {
       margin-top: 40px;
 }
 
+.card-center {
+      background: #FFFFFF;
+      box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
 .ftr-list-item-big {
       padding: 40px 30px 25px 30px;
       box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
@@ -193,4 +199,111 @@ body {
       line-height: 150%;
       font-weight: bold;
       font-family: 'Gilroy';
+      color: #000;
+}
+
+.services {
+      padding: 92px 0 100px 0;
+}
+
+.services-tittle {
+      font-size: 45px;
+      line-height: 53px;
+      color: #000000;
+      text-align: center;
+      margin: 0 auto 19px 0;
+      font-family: 'Gilroy';
+      font-weight: bold;
+      font-style: normal;
+}
+
+.services-txt {
+      max-width: 682px;
+      width: 100%;
+      margin: 0 auto 55px auto;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #666666;
+      font-family: 'Gilroy';
+      font-weight: normal;
+      font-style: normal;
+}
+
+.services-list {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      gap: 30px;
+}
+
+.services-list-item {
+      max-width: 370px;
+      width: 100%;
+}
+
+.services-item-photo {
+      width: 370px;
+      height: 270px;
+      box-sizing: border-box;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+}
+
+.serv-img1 {
+      background-image: url('../img/services1.png');
+}
+
+.serv-img2 {
+      background-image: url('../img/services2.png');
+}
+
+.serv-img3 {
+      background-image: url('../img/services3.png');
+}
+
+.sreveices-list-item-tittle {
+      text-align: center;
+      margin: 25px 0 22px 0;
+      font-family: 'Gilroy';
+      font-weight: bold;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 28px;
+      color: #000000;
+
+}
+
+.srevices-list-item-txt {
+      text-align: center;
+      margin: 0 auto 39px auto;
+      max-width: 310px;
+      width: 100%;
+      font-family: 'Gilroy';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 15px;
+      line-height: 22px;
+      text-align: center;
+      color: #AAAAAA;
+}
+
+.services-list-item-btn {
+      margin: 0 auto 35px auto;
+      display: block;
+      background: #F25822;
+      box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+      border-radius: 50px;
+      width: 150px;
+      height: 50px;
+      border: none;
+      font-family: 'Gilroy';
+      font-weight: bold;
+      font-style: normal;
+      font-size: 13px;
+      line-height: 20px;
+      text-align: center;
+      color: #FFFFFF;
+
 }
